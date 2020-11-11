@@ -1,0 +1,50 @@
+.page {
+  background: #14345D;
+  }
+
+.header {
+  background: url("images/GarageTop.png") center center;
+  color: #D3CBAE;
+}
+
+.body {
+  min-height: 500px;
+  background: #1E1214;
+  color: #666060;
+  /*background: url("images/parkingGarageNight.jpg") bottom center;*/
+}
+
+.fixed-footer {
+  background: url("images/parkingGarageNight.jpg") center center;
+  height: 300px;
+}
+
+.garages {
+  padding: 10px;
+  padding-bottom: 8px;
+
+}
+
+ul {
+  font-weight: bolder;
+  list-style-type: none;
+}
+
+.garage {
+  display: inline-block;
+  margin: 5px;
+  background-color: #FFF3D1;
+  padding: 5px;
+  width: 225px;
+  text-align: center;
+  /* border-radius */
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  /* box-shadow */
+  -webkit-box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
+   -moz-box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
+  box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
+}
+
+  
