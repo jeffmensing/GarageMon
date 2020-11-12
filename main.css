@@ -1,5 +1,9 @@
 .page {
   background: #14345D;
+  max-width: 1165px;
+  margin-left: auto;
+  margin-right: auto;
+  
   }
 
 .header {
@@ -7,11 +11,16 @@
   color: #D3CBAE;
 }
 
+#refreshText {                 
+  bottom:0;                          
+  left: 0;
+  padding-left: 5px;
+}
+
 .body {
-  min-height: 500px;
+  min-height: 400px;
   background: #1E1214;
   color: #666060;
-  /*background: url("images/parkingGarageNight.jpg") bottom center;*/
 }
 
 .fixed-footer {
@@ -22,7 +31,6 @@
 .garages {
   padding: 10px;
   padding-bottom: 8px;
-
 }
 
 ul {
@@ -30,12 +38,17 @@ ul {
   list-style-type: none;
 }
 
+li {
+  margin-bottom: 0px;
+}
+
 .garage {
   display: inline-block;
   margin: 5px;
   background-color: #FFF3D1;
   padding: 5px;
-  width: 225px;
+  width: 360px;
+  height: 65px;
   text-align: center;
   /* border-radius */
   -webkit-border-radius: 5px;
@@ -46,5 +59,7 @@ ul {
    -moz-box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
   box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
 }
+
+
 
   
